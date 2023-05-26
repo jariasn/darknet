@@ -47,7 +47,7 @@ Duplicate the `yolov3-tiny.cf`g file and name it `yolov3-tiny-duckie.cfg`. Make 
 filters=27 (lines 127 and 171)
 classes=4 (lines 135 and 177)
 ## Training the Model
-To train the model and get the weights, run the [Colab notebook](https://colab.research.google.com/drive/1KTiGe3cxPZeqqvHbAlBw8Iej71HOL5aj?usp=sharing](https://colab.research.google.com/drive/1I-9CTdz5QGuTFAqrRQkeHUr1-OkS653l?usp=sharing).
+To train the model and get the weights, run the [Colab notebook](https://colab.research.google.com/drive/1I-9CTdz5QGuTFAqrRQkeHUr1-OkS653l?usp=sharing).
 
 ## Testing the Model
 To test the model with the weights generated after training it with the provided dataset, run the [Colab notebook](https://colab.research.google.com/drive/1KTiGe3cxPZeqqvHbAlBw8Iej71HOL5aj?usp=sharing).
