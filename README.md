@@ -17,7 +17,7 @@ Clone the Darknet repository from [https://github.com/pjreddie/darknet.git](http
 git clone https://github.com/pjreddie/darknet.git
 ```
 ### Creating the Dataset
-To train the model, create the dataset by collecting images of Ducktown and taking your own images. Use a Laplacian filter to determine image blur. The dataset should consist of high-quality images and should be stored in the /datasets directory.
+To train the model, create the dataset by collecting images of Ducktown and taking your own images. Use a Laplacian filter to determine image blur. The dataset should consist of high-quality images and should be stored in the `/datasets directory`. It can be done running the `detect_blurry_img.py` code.
 
 ### Labeling Images
 Label the images using the labelImg software. For installation instructions, refer to the [labelImg repository](https://github.com/heartexlabs/labelImg). Define the classes in a text file named `predefined_classes.txt` located in `/labelImg/data`. Here are the predefined classes:
@@ -30,7 +30,7 @@ road_sign
 To label the images, open the dataset directory in the labelImg software.
 
 ### Dataset Split
-Divide the labeled dataset into three sets: 85% for training, 7.5% for testing, and 7.5% for validation. The dataset split files `train.txt` and `valid.txt`, which include the path to each training and validation image, are included in this repository inside `/datasets`.
+Divide the labeled dataset into three sets: 85% for training, 7.5% for testing, and 7.5% for validation. The dataset split files `train.txt` and `valid.txt`, which include the path to each training and validation image, are included in this repository inside `/datasets`. This can be done running the `create_datasets.py` code.
 
 ### YOLO Configuration Files
 Prepare the YOLO configuration files. Create the `duckie.data` file and place it inside `/darknet/cfg`. Here is the content of the `duckie.data` file:
